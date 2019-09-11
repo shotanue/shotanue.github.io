@@ -5,6 +5,8 @@ defaultContentLanguage = "en"
 title = "shotanue"
 theme = "hermit"
 
+publishDir = "../"
+
 
 #@ref https://github.com/Track3/hermit/blob/master/exampleSite/config.toml
 [author]
