@@ -2,7 +2,7 @@ baseURL = "https://shotanue.github.io/"
 languageCode = "ja-JP"
 defaultContentLanguage = "en"
 
-title = "shotanue"
+title = "@shotanue"
 theme = "hermit"
 
 publishDir = "../"
