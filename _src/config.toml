@@ -37,10 +37,17 @@ publishDir = "../"
 
 [menu]
   [[menu.main]]
+    name = "qiita"
+    url = "https://qiita.com/shotanue"
+    weight = 10
+
+  [[menu.main]]
     name = "Posts"
     url = "posts/"
     weight = 10
 
+ 
+ 
 #  [[menu.main]]
 #    name = "About"
 #    url = "about-hugo/"
