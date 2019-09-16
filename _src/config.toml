@@ -6,6 +6,8 @@ title = "@shotanue"
 theme = "hermit"
 
 publishDir = "../"
+googleAnalytics = "UA-148004704-1"
+
 
 
 #@ref https://github.com/Track3/hermit/blob/master/exampleSite/config.toml
