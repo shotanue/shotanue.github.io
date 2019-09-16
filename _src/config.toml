@@ -8,6 +8,9 @@ theme = "hermit"
 publishDir = "../"
 googleAnalytics = "UA-148004704-1"
 
+hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
+
+
 
 
 #@ref https://github.com/Track3/hermit/blob/master/exampleSite/config.toml
