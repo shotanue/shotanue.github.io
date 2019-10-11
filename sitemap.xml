@@ -4,12 +4,32 @@
   
   <url>
     <loc>https://shotanue.github.io/</loc>
-    <lastmod>2019-09-11T23:54:49+09:00</lastmod>
+    <lastmod>2019-10-12T02:10:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shotanue.github.io/tags/abc/</loc>
+    <lastmod>2019-10-12T02:10:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shotanue.github.io/posts/abc-142/</loc>
+    <lastmod>2019-10-12T02:10:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shotanue.github.io/tags/atcoder/</loc>
+    <lastmod>2019-10-12T02:10:09+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://shotanue.github.io/posts/</loc>
-    <lastmod>2019-09-11T23:54:49+09:00</lastmod>
+    <lastmod>2019-10-12T02:10:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shotanue.github.io/tags/</loc>
+    <lastmod>2019-10-12T02:10:09+09:00</lastmod>
   </url>
   
   <url>
@@ -19,10 +39,6 @@
   
   <url>
     <loc>https://shotanue.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://shotanue.github.io/tags/</loc>
   </url>
   
 </urlset>
