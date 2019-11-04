@@ -5,8 +5,64 @@
 		<description>Recent content in Posts on @shotanue</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>ja-JP</language>
-		<lastBuildDate>Sat, 12 Oct 2019 02:10:09 +0900</lastBuildDate>
+		<lastBuildDate>Mon, 04 Nov 2019 19:10:38 +0900</lastBuildDate>
 		<atom:link href="https://shotanue.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Alpine Composer</title>
+			<link>https://shotanue.github.io/posts/alpine-composer/</link>
+			<pubDate>Mon, 04 Nov 2019 19:10:38 +0900</pubDate>
+			
+			<guid>https://shotanue.github.io/posts/alpine-composer/</guid>
+			<description>コンポーザーをalpineに楽に入れたい。 (※alpine以外の環境にこの方法で入れて動くかは不明) 結論としては、こんな感じにすればOK FROM alpine:3.10.3</description>
+			<content type="html"><![CDATA[
+
+<p>コンポーザーをalpineに楽に入れたい。
+(※alpine以外の環境にこの方法で入れて動くかは不明)</p>
+
+<p>結論としては、こんな感じにすればOK</p>
+
+<pre><code class="language-bash">FROM alpine:3.10.3
+
+ENV COMPOSER_HOME /composer
+ENV COMPOSER_ALLOW_SUPERUSER 1
+ENV PATH /composer/vendor/bin:$PATH
+
+COPY --from=composer:1.9.1 /usr/bin/composer /usr/bin/composer
+</code></pre>
+
+<h2 id="解説">解説</h2>
+
+<p>composerは公式イメージがあるので、ここから実行ファイルだけ落としてくれば動くみたい。<br />
+/usr/binとかに入れておく。</p>
+
+<h4 id="composer-allow-superuser-1"><code>COMPOSER_ALLOW_SUPERUSER 1</code></h4>
+
+<p>これを指定すると、composerをSUPER USERで動かしても怒らなくなる。<br />
+alpineはそのままだとSUPER USERで動くので指定している。<br />
+実行ユーザーを設定していたりすれば不要なんだろうと思う。</p>
+
+<h4 id="composer-home"><code>COMPOSER_HOME</code></h4>
+
+<p>指定したディレクトリにcomposerそのものが動作するのに使用するファイル、キャッシュ類が格納される。</p>
+
+<h2 id="応用">応用</h2>
+
+<p>ユースケースとして、デプロイ用のイメージでcomposer installをしたいが、アプリ動作時はcomposerが不要になる場合は下記のようにするとイメージが綺麗に保てるのでは(と思っている)。</p>
+
+<pre><code class="language-bash">FROM php:latest
+
+COPY --from=composer:1.9.1 /usr/bin/composer /usr/bin/composer
+
+WORKDIR /var/some-application
+COPY ./some-application .
+
+RUN composer install --no-dev \
+ &amp;&amp; composer some-application-set-up-script \
+ &amp;&amp; rm -rf /usr/bin/composer /composer
+</code></pre>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Abc 142</title>

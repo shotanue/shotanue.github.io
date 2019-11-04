@@ -6,10 +6,37 @@
     <description>Recent content in Tags on @shotanue</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 12 Oct 2019 02:10:09 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 19:10:38 +0900</lastBuildDate>
     
 	<atom:link href="https://shotanue.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>composer</title>
+      <link>https://shotanue.github.io/tags/composer/</link>
+      <pubDate>Mon, 04 Nov 2019 19:10:38 +0900</pubDate>
+      
+      <guid>https://shotanue.github.io/tags/composer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://shotanue.github.io/tags/docker/</link>
+      <pubDate>Mon, 04 Nov 2019 19:10:38 +0900</pubDate>
+      
+      <guid>https://shotanue.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://shotanue.github.io/tags/php/</link>
+      <pubDate>Mon, 04 Nov 2019 19:10:38 +0900</pubDate>
+      
+      <guid>https://shotanue.github.io/tags/php/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ABC</title>

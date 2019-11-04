@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>php on @shotanue</title>
+    <link>https://shotanue.github.io/tags/php/</link>
+    <description>Recent content in php on @shotanue</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Mon, 04 Nov 2019 19:10:38 +0900</lastBuildDate>
+    
+	<atom:link href="https://shotanue.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alpine Composer</title>
+      <link>https://shotanue.github.io/posts/alpine-composer/</link>
+      <pubDate>Mon, 04 Nov 2019 19:10:38 +0900</pubDate>
+      
+      <guid>https://shotanue.github.io/posts/alpine-composer/</guid>
+      <description>コンポーザーをalpineに楽に入れたい。 (※alpine以外の環境にこの方法で入れて動くかは不明) 結論としては、こんな感じにすればOK FROM alpine:3.10.3</description>
+    </item>
+    
+  </channel>
+</rss>
