@@ -6,10 +6,19 @@
     <description>Recent content in php on @shotanue</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 04 Nov 2019 19:10:38 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 22:46:06 +0900</lastBuildDate>
     
 	<atom:link href="https://shotanue.github.io/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PHP MySQL 8.0 Auth</title>
+      <link>https://shotanue.github.io/posts/php-mysql8-auth/</link>
+      <pubDate>Mon, 04 Nov 2019 22:46:06 +0900</pubDate>
+      
+      <guid>https://shotanue.github.io/posts/php-mysql8-auth/</guid>
+      <description>ことはじめ mysql:8.0にpdoでつなぎに行ったらこんな感じのエラーが出た。 PDOException: PDO::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /var/app/bin/setup.php on line 19 認証方法が8系から変わった</description>
+    </item>
     
     <item>
       <title>Alpine Composer</title>
